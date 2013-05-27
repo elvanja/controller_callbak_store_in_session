@@ -1,0 +1,10 @@
+<h3>Counter: <%= @counter %></h3>
+
+<%= form_tag('/increase') do -%>
+  <div><%= submit_tag 'Increase' %></div>
+<% end -%>
+
+<%= form_tag('/reset') do -%>
+  <div><%= submit_tag 'reset' %></div>
+<% end -%>
+
