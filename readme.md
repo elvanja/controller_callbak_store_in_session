@@ -6,9 +6,14 @@ Related to http://stackoverflow.com/questions/16770090/storing-rails-controller-
 ## Idea
 
 Perform some time consuming action in background.
+
 Have the results from that action be propagated back to the controller using a callback.
+
 Store the result in an in memory session store.
+
 Have the result in session be used and available from that point onward.
+
+![Async Callback](/doc/async_callback.jpg "Async Callback")
 
 ## Problem
 
